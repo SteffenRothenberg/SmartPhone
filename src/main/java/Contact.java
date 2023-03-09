@@ -30,10 +30,4 @@ public abstract class Contact {
       return getNameOfContact().hashCode();
    }
 
-   @Override
-   public String toString() {
-      return "Contact{" +
-              "nameOfContact='" + nameOfContact + '\'' +
-              '}';
-   }
 }

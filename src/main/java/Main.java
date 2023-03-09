@@ -10,7 +10,7 @@ public class Main {
         List<Contact> contactList = new ArrayList<>();
         contactList.add(contactOne);
         contactList.add(contactTwo);
-        Smartphone smartphoneOne = new Smartphone("iPhone11","Apple", contactList);
+        Smartphone smartphoneOne = new Smartphone("iPhone11","Apple","Köln", contactList);
         System.out.println(smartphoneOne);
         smartphoneOne.startRadio();
         smartphoneOne.stopRadio();
@@ -18,5 +18,8 @@ public class Main {
         smartphoneOne.stopRadio();
         smartphoneOne.startRadio();
         smartphoneOne.startRadio();
+        System.out.println(smartphoneOne);
+        System.out.println(smartphoneOne.getPosition());
+        System.out.println(smartphoneOne.getGPSPosition());
     }
 }
