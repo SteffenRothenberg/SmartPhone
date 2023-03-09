@@ -43,7 +43,7 @@ public class Smartphone implements Radio,GPS{
         this.radioStatus = false;
         return false;
     }
-    public boolean containsAtLeastOneContact(){
+    public boolean (){
         return contactList.size() >= 1;
     }
 
